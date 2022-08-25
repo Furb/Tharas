@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <About />
 
-      <section className="container mx-auto mt-44 mb-32">
+      <section className="container mx-auto my-44">
         <h4>Working on it</h4>
         <h2 className="font-extralight">
           Currently devoted in learning more about React.js and Next.js. I'm on
