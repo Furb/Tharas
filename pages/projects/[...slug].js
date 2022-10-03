@@ -3,12 +3,12 @@ import Image from "next/image";
 const projects = () => {
   return (
     <div className="projects px-4">
-      <div className="flex flex-col min-h-[80vh] bg-lightYellow mb-4 justify-end pb-24 pl-24">
-        <h1>Title</h1>
-        <h3>UI Design & Development</h3>
+      <div className="flex flex-col min-h-[40vh] desktop:min-h-[80vh] bg-light mb-4 justify-end desktop:pb-24 pl-24">
+        <h1 className="text-darkBlue hidden desktop:block">Title</h1>
       </div>
+      <h1 className="text-white desktop:hidden">Title</h1>
 
-      <div className="big_container mx-auto mb-48 grid grid-cols-6 gap-4">
+      <div className="big_container mx-auto m_space grid grid-cols-6 gap-4">
         <div className="box flex justify-center items-center min-h-[50vh] col-span-6 py-48">
           <h2 className="text-light font-extralight">
             Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis
@@ -129,6 +129,16 @@ const projects = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="min-h-[80vh] bg-white mb-4 pt-24">
+        <p className="text-darkBlue">Title</p>
+        <div className="big_container mx-auto">
+          <h1>Hollo</h1>
+        </div>
+      </div>
+
+      <div className="min-h-[80vh] bg-light mb-4 pt-24 pl-24">
+        <p className="text-darkBlue">Title</p>
       </div>
     </div>
   );

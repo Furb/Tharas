@@ -13,16 +13,20 @@ export default function Home() {
       </Head>
       <Hero />
       <About />
+      <div className="big_container desktop:flex my-44 desktop:my-72">
+        <div className="big_left">
+          <h4>Working on it</h4>
+        </div>
 
-      <section className="container mx-auto my-44">
-        <h4>Working on it</h4>
-        <h2 className="font-extralight">
-          Currently devoted in learning more about React.js and Next.js. I'm on
-          a javascript learning path. It's a slow and steady progress. React.js
-          and Next.js gives it a purpose, and the aim for creating sites build
-          on a headless cms gives the learning process context.
-        </h2>
-      </section>
+        <div className="big_right">
+          <p>
+            Currently devoted on a React.js learning path. Javascript has been a
+            slow and steady progress for me. React.js and Next.js gives it
+            purpose, and the aim for continually working with headless cms gives
+            the learning process context.
+          </p>
+        </div>
+      </div>
     </>
   );
 }

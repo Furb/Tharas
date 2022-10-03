@@ -16,7 +16,7 @@
   }
  
  h1, .h1 {
-    @apply text-xl desktop:text-2xl font-display text-lightBlue leading-none 
+    @apply text-xl desktop:text-2xl font-display text-lightBlue leading-none font-normal 
   }
 
   h2, .h2 {
@@ -36,12 +36,21 @@
   }
 
   a {
-    @apply text-lightYellow
+    @apply text-lightYellow  
   }
 
 nav a {
   @apply mr-12 last:mr-0
 }
+
+a.link {
+  @apply border-b-2 border-darkBlue hover:border-lightYellow hover:opacity-60 hover:translate-y-1 transition-all duration-200 ease-in-out 
+}
+
+.trans {
+  @apply transition-all duration-200 ease-in-out
+}
+
 
   .label__light {
     @apply text-sm font-thin
@@ -71,5 +80,13 @@ nav a {
 
   .big_right {
     @apply desktop:w-2/3
+  }
+
+  .m_space {
+    @apply mb-28 desktop:mb-44
+  }
+
+  .p_space {
+    @apply pb-28 desktop:pb-44
   }
 }

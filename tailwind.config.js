@@ -15,22 +15,22 @@ module.exports = {
       blue: "#435086",
       lightBlue: "#B8C1EC",
       darkBlue: "#232946",
-      grey: "#707070",
+      light: "#fafafa",
       white: "#FFFFFE",
       lightYellow: "#DFE3C2",
       darkest: "#1B2238",
     },
 
     fontFamily: {
-      display: ['"BigCity Grotesque Pro"', "sans-serif"],
+      display: ["BigCity Grotesque Pro", "sans-serif"],
       sans: [
-        '"elza"',
-        '"Helvetica Neue"',
-        '"HelveticaNeue-Light"',
-        '"Helvetica Neue Light"',
+        "elza",
+        "Helvetica Neue",
+        "HelveticaNeue-Light",
+        "Helvetica Neue Light",
         "Helvetica",
         "Arial",
-        '"Lucida Grande"',
+        "Lucida Grande",
         "sans-serif",
       ],
     },
@@ -51,11 +51,11 @@ module.exports = {
 
       main: ["1.25rem", "1.5"],
 
-      lg: ["1.5rem", "1.4"],
+      lg: ["1.75rem", "1.5"],
 
-      xl: ["3.5rem", "1.4"],
+      xl: ["4rem", "1.4"],
 
-      "2xl": ["12rem", "1"],
+      "2xl": ["10rem", "1"],
     },
 
     extend: {},

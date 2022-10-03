@@ -11,18 +11,26 @@ const Header = () => {
             </Link>
           </div>
           <nav className="hidden desktop:flex">
+            <Link href="/stories">
+              <a className="link">
+                <h4>Stories</h4>
+              </a>
+            </Link>
             <Link href="/projects">
-              <a>Projects</a>
+              <a className="link">
+                <h4>Projects</h4>
+              </a>
             </Link>
 
-            <Link href="/stories">
-              <a>Stories</a>
-            </Link>
-            <Link href="/oddity">
-              <a>#oddity</a>
+            <Link href="/tharassen">
+              <a className="link">
+                <h4>#tharassen</h4>
+              </a>
             </Link>
             <Link href="/contact">
-              <a>Get in touch</a>
+              <a className="link">
+                <h4>Get in touch</h4>
+              </a>
             </Link>
           </nav>
         </div>
