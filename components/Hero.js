@@ -11,7 +11,7 @@ const Hero = () => {
         alt="Thabo Rasmussen"
       />
 
-      <div className="big_container absolute w-full bottom-32 desktop:bottom-60">
+      <div className="big_container absolute w-full bottom-[5vh]">
         <div className="container_left"></div>
         <div className="right container_right">
           <p>Designer & UI developer</p>

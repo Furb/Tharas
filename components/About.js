@@ -6,10 +6,9 @@ const About = () => {
       <div className="big_container desktop:my-44">
         <h2 className="text-light mb-32">
           This is my personal digital space. The serious bits are mainly about
-          UI- design and development. It's also a place to throw in relateable
-          personal stuff with no apparent significanse other than the fun of it.
-          Could be poster compositions, branding items, or the odd blog post.
-          Stuff like that.
+          life in a UI- design and development context. It's also a place to
+          throw in relateable personal design stuff with no apparent
+          significanse other than the fun of it.
         </h2>
       </div>
 
@@ -62,7 +61,7 @@ const About = () => {
             />
           </div>
           <a className="group-hover:underline" href="#">
-            <p className="text-main uppercase tracking-wider">
+            <p className="text-main uppercase tracking-wider h-24">
               Back to school at 40
             </p>
           </a>
@@ -78,7 +77,7 @@ const About = () => {
             />
           </div>
           <a className="group-hover:underline" href="#">
-            <p className="text-main uppercase tracking-wider">
+            <p className="text-main uppercase tracking-wider h-24">
               Rediscovering passion through photography
             </p>
           </a>
@@ -94,7 +93,7 @@ const About = () => {
             />
           </div>
           <a className="group-hover:underline" href="#">
-            <p className="text-main uppercase tracking-wider">
+            <p className="text-main uppercase tracking-wider h-24">
               Project management when working alone
             </p>
           </a>
@@ -110,7 +109,7 @@ const About = () => {
             />
           </div>
           <a className="group-hover:underline" href="#">
-            <p className="text-main uppercase tracking-wider">
+            <p className="text-main uppercase tracking-wider h-24">
               Regaining confidence
             </p>
           </a>

@@ -27,11 +27,6 @@ const Header = () => {
                 <h4>#tharassen</h4>
               </a>
             </Link>
-            <Link href="/contact">
-              <a className="link">
-                <h4>Get in touch</h4>
-              </a>
-            </Link>
           </nav>
         </div>
       </div>
