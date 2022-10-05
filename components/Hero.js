@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="hero h-[58vh] desktop:h-[90vh] relative">
+    <section className="hero h-[90vh] relative">
       <Image
         src="https://res.cloudinary.com/dahciljdo/image/upload/v1656062871/tharas/thabo-transparent_hxo8md.png"
         layout="fill"

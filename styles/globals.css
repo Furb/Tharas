@@ -16,11 +16,11 @@
   }
  
  h1, .h1 {
-    @apply text-xl desktop:text-2xl font-display text-lightBlue leading-none font-normal 
+    @apply text-xl big:text-2xl font-display text-lightBlue leading-none font-normal 
   }
 
   h2, .h2 {
-    @apply text-lg desktop:text-xl font-display
+    @apply text-lg big:text-xl font-display
   }
 
   h3, .h3 {
@@ -32,7 +32,7 @@
   }
 
   p {
-    @apply text-main desktop:text-lg font-extralight tracking-wide
+    @apply text-main big:text-lg font-extralight tracking-wide
   }
 
   a {
